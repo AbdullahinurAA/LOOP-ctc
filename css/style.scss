@@ -1,0 +1,1627 @@
+/* Scss Document */
+//font imports from g-fonts
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,900|Open+Sans:400,800&display=swap');
+//fonts
+$montserrat: 'Montserrat', sans-serif;
+$open-sans: 'Open Sans', sans-serif;
+
+//colors
+$white: #ffffff;
+$light-blue: #7FDBFF;
+$orange: #FF851B;
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+body {
+	background: transparent url("../images/GILD-LOGO-LOOP.png");
+////	background-position: left center;
+////    background-repeat: repeat-x;
+//	  background-position: space 0 0;
+	background-size: 8rem;
+				.oranged {
+					color: $orange !important;
+				}
+	
+		.navbar {
+    position: absolute !important;
+			z-index: 1;
+			.fa-desktop:hover {
+				color: $light-blue !important;
+			}
+		}
+	
+	.jumbotron {
+		background: transparent linear-gradient(180deg, #FFFFFF 0%, #7FDBFF 100%) 0% 0% no-repeat padding-box;
+		height: 100vh;
+		padding-top: 11rem;
+		clip-path: polygon(0 0, 100% 0, 100% 66%, 0% 100%);
+			h1 {
+			text-align: left;
+			text-shadow: 0px 3px 6px #00000029;
+			color: #fff;
+			font-family: $montserrat;
+			font-weight: 900;
+			font-size: 9.5rem;
+			line-height: 0.7;
+			
+		}
+		p {
+			text-align: left;
+            font-family: $open-sans;
+            font-size: 1.4rem;
+            letter-spacing: 0;
+            color: #FFFFFF;
+            text-shadow: 0px 3px 6px #00000029;
+		}
+
+	}
+		.computer {
+			 position: absolute;
+    		 z-index: 1;
+             top: 8rem;
+             right: 5rem;
+
+		}
+	.about-wrapper {
+		padding: 5rem;
+		height: 100%;
+		background: url("../images/typing.png") no-repeat center;
+		background-size: cover;
+			clip-path: polygon(0 46%, 100% 0, 100% 100%, 0% 100%);
+		
+		
+		.container-fluid {
+			padding-top: 3rem;
+			h1 {
+			margin-top: 0rem; 
+    		text-align: center;
+    		font-family: "Open Sans", sans-serif;
+    		font-weight: 800;
+    		font-weight: 800;
+    		font-size: 4rem;
+    		letter-spacing: 0;
+    		color: #7FDBFF;
+    		text-shadow: 0px 3px 6px #00000029;
+			}
+			p {
+			margin: 1rem;
+			text-align: center;
+			font: 1.5rem $open-sans;	
+			letter-spacing: 0;
+			color: $white;
+			text-shadow: 0px 3px 6px #00000029;
+			}
+		}
+	}
+		.course-wrapper {
+		height: 100vh;
+		background-color: $orange;
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 0 66%);
+		margin-bottom: -25rem;
+		
+		.container {
+			h1 {
+			padding-top: 3rem;
+    		font-family: "Open Sans", sans-serif;
+    		font-weight: 800;
+    		font-weight: 800;
+    		font-size: 4rem;
+    		letter-spacing: 0;
+    		color: #7FDBFF;
+    		text-shadow: 0px 3px 6px #00000029;
+			}
+						h2 {
+    		text-align: center;
+    		font-family: "Open Sans", sans-serif;
+    		font-weight: 800;
+    		font-weight: 800;
+    		font-size: 2rem;
+    		letter-spacing: 0;
+    		color: #7FDBFF;
+    		text-shadow: 0px 3px 6px #00000029;
+			}
+			p {
+			margin: 1rem;
+			font: 1.5rem $open-sans;	
+			letter-spacing: 0;
+			color: $white;
+			text-shadow: 0px 3px 6px #00000029;
+			}
+		}
+	}
+	.accredation-wrapper {
+		background-color: #7fdbffc2;
+		height: 100%; 
+
+	
+		.container-fluid {
+			h1 {
+				line-height: 0.9;
+    		font-family: "Open Sans", sans-serif;
+    		font-weight: 800;
+    		font-weight: 800;
+    		font-size: 4rem;
+    		letter-spacing: 0;
+    		color: $orange;
+    		text-shadow: 0px 3px 6px #00000029;
+			}
+			.row {
+				padding-left: 11rem;
+			}
+		}
+			
+			
+	}
+	footer {
+		.container {
+			h2 {
+				    		font-family: "Open Sans", sans-serif;
+    		font-weight: 800;
+    		font-weight: 800;
+    		font-size: 2rem;
+    		letter-spacing: 0;
+    		color: $orange;
+    		text-shadow: 0px 3px 6px #00000029;
+			}
+			form {
+				label {
+					color: $white;
+				}
+				button {
+					background-color: $orange;
+					border-color: $orange;
+					color: $white;
+					font-weight: 500;
+				}
+				
+			}
+		}
+		img {
+			position: relative;
+			left: 5rem;
+		}
+	}
+
+}
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+body {
+	background: transparent url("../images/GILD-LOGO-LOOP.png");
+////	background-position: left center;
+////    background-repeat: repeat-x;
+//	  background-position: space 0 0;
+	background-size: 8rem;
+				.oranged {
+					color: $orange !important;
+				}
+	
+		.navbar {
+    position: absolute !important;
+			z-index: 1;
+			.fa-desktop:hover {
+				color: $light-blue !important;
+			}
+		}
+	
+	.jumbotron {
+		background: transparent linear-gradient(180deg, #FFFFFF 0%, #7FDBFF 100%) 0% 0% no-repeat padding-box;
+		height: 100vh;
+		padding-top: 11rem;
+		clip-path: polygon(0 0, 100% 0, 100% 66%, 0% 100%);
+			h1 {
+			text-align: left;
+			text-shadow: 0px 3px 6px #00000029;
+			color: #fff;
+			font-family: $montserrat;
+			font-weight: 900;
+			font-size: 9.5rem;
+			line-height: 0.7;
+			
+		}
+		p {
+			text-align: left;
+            font-family: $open-sans;
+            font-size: 1.4rem;
+            letter-spacing: 0;
+            color: #FFFFFF;
+            text-shadow: 0px 3px 6px #00000029;
+		}
+
+	}
+		.computer {
+			 position: absolute;
+    		 z-index: 1;
+             top: 8rem;
+             right: 5rem;
+
+		}
+	.about-wrapper {
+		padding: 5rem;
+		height: 100%;
+		background: url("../images/typing.png") no-repeat center;
+		background-size: cover;
+			clip-path: polygon(0 46%, 100% 0, 100% 100%, 0% 100%);
+		
+		
+		.container-fluid {
+			padding-top: 3rem;
+			h1 {
+			margin-top: 0rem; 
+    		text-align: center;
+    		font-family: "Open Sans", sans-serif;
+    		font-weight: 800;
+    		font-weight: 800;
+    		font-size: 4rem;
+    		letter-spacing: 0;
+    		color: #7FDBFF;
+    		text-shadow: 0px 3px 6px #00000029;
+			}
+			p {
+			margin: 1rem;
+			text-align: center;
+			font: 1.5rem $open-sans;	
+			letter-spacing: 0;
+			color: $white;
+			text-shadow: 0px 3px 6px #00000029;
+			}
+		}
+	}
+		.course-wrapper {
+		height: 100vh;
+		background-color: $orange;
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 0 66%);
+		margin-bottom: -25rem;
+		
+		.container {
+			h1 {
+			padding-top: 3rem;
+    		font-family: "Open Sans", sans-serif;
+    		font-weight: 800;
+    		font-weight: 800;
+    		font-size: 4rem;
+    		letter-spacing: 0;
+    		color: #7FDBFF;
+    		text-shadow: 0px 3px 6px #00000029;
+			}
+						h2 {
+    		text-align: center;
+    		font-family: "Open Sans", sans-serif;
+    		font-weight: 800;
+    		font-weight: 800;
+    		font-size: 2rem;
+    		letter-spacing: 0;
+    		color: #7FDBFF;
+    		text-shadow: 0px 3px 6px #00000029;
+			}
+			p {
+			margin: 1rem;
+			font: 1.5rem $open-sans;	
+			letter-spacing: 0;
+			color: $white;
+			text-shadow: 0px 3px 6px #00000029;
+			}
+		}
+	}
+	.accredation-wrapper {
+		background-color: #7fdbffc2;
+		height: 100%; 
+
+	
+		.container-fluid {
+			h1 {
+				line-height: 0.9;
+    		font-family: "Open Sans", sans-serif;
+    		font-weight: 800;
+    		font-weight: 800;
+    		font-size: 4rem;
+    		letter-spacing: 0;
+    		color: $orange;
+    		text-shadow: 0px 3px 6px #00000029;
+			}
+			.row {
+				padding-left: 11rem;
+			}
+		}
+			
+			
+	}
+	footer {
+		.container {
+			h2 {
+				    		font-family: "Open Sans", sans-serif;
+    		font-weight: 800;
+    		font-weight: 800;
+    		font-size: 2rem;
+    		letter-spacing: 0;
+    		color: $orange;
+    		text-shadow: 0px 3px 6px #00000029;
+			}
+			form {
+				label {
+					color: $white;
+				}
+				button {
+					background-color: $orange;
+					border-color: $orange;
+					color: $white;
+					font-weight: 500;
+				}
+				
+			}
+		}
+		img {
+			position: relative;
+			left: 5rem;
+		}
+	}
+
+}
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+body {
+	background: transparent url("../images/GILD-LOGO-LOOP.png");
+////	background-position: left center;
+////    background-repeat: repeat-x;
+//	  background-position: space 0 0;
+	background-size: 8rem;
+				.oranged {
+					color: $orange !important;
+				}
+	
+		.navbar {
+    position: absolute !important;
+			z-index: 1;
+			.fa-desktop:hover {
+				color: $light-blue !important;
+			}
+		}
+	
+	.jumbotron {
+		background: transparent linear-gradient(180deg, #FFFFFF 0%, #7FDBFF 100%) 0% 0% no-repeat padding-box;
+		height: 100vh;
+		padding-top: 11rem;
+		clip-path: polygon(0 0, 100% 0, 100% 66%, 0% 100%);
+			h1 {
+			text-align: left;
+			text-shadow: 0px 3px 6px #00000029;
+			color: #fff;
+			font-family: $montserrat;
+			font-weight: 900;
+			font-size: 9.5rem;
+			line-height: 0.7;
+			
+		}
+		p {
+			text-align: left;
+            font-family: $open-sans;
+            font-size: 1.4rem;
+            letter-spacing: 0;
+            color: #FFFFFF;
+            text-shadow: 0px 3px 6px #00000029;
+		}
+
+	}
+		.computer {
+			 position: absolute;
+    		 z-index: 1;
+             top: 8rem;
+             right: 5rem;
+
+		}
+	.about-wrapper {
+		padding: 5rem;
+		height: 100%;
+		background: url("../images/typing.png") no-repeat center;
+		background-size: cover;
+			clip-path: polygon(0 46%, 100% 0, 100% 100%, 0% 100%);
+		
+		
+		.container-fluid {
+			padding-top: 3rem;
+			h1 {
+			margin-top: 0rem; 
+    		text-align: center;
+    		font-family: "Open Sans", sans-serif;
+    		font-weight: 800;
+    		font-weight: 800;
+    		font-size: 4rem;
+    		letter-spacing: 0;
+    		color: #7FDBFF;
+    		text-shadow: 0px 3px 6px #00000029;
+			}
+			p {
+			margin: 1rem;
+			text-align: center;
+			font: 1.5rem $open-sans;	
+			letter-spacing: 0;
+			color: $white;
+			text-shadow: 0px 3px 6px #00000029;
+			}
+		}
+	}
+		.course-wrapper {
+		height: 100vh;
+		background-color: $orange;
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 0 66%);
+		margin-bottom: -25rem;
+		
+		.container {
+			h1 {
+			padding-top: 3rem;
+    		font-family: "Open Sans", sans-serif;
+    		font-weight: 800;
+    		font-weight: 800;
+    		font-size: 4rem;
+    		letter-spacing: 0;
+    		color: #7FDBFF;
+    		text-shadow: 0px 3px 6px #00000029;
+			}
+						h2 {
+    		text-align: center;
+    		font-family: "Open Sans", sans-serif;
+    		font-weight: 800;
+    		font-weight: 800;
+    		font-size: 2rem;
+    		letter-spacing: 0;
+    		color: #7FDBFF;
+    		text-shadow: 0px 3px 6px #00000029;
+			}
+			p {
+			margin: 1rem;
+			font: 1.5rem $open-sans;	
+			letter-spacing: 0;
+			color: $white;
+			text-shadow: 0px 3px 6px #00000029;
+			}
+		}
+	}
+	.accredation-wrapper {
+		background-color: #7fdbffc2;
+		height: 100%; 
+
+	
+		.container-fluid {
+			h1 {
+				line-height: 0.9;
+    		font-family: "Open Sans", sans-serif;
+    		font-weight: 800;
+    		font-weight: 800;
+    		font-size: 4rem;
+    		letter-spacing: 0;
+    		color: $orange;
+    		text-shadow: 0px 3px 6px #00000029;
+			}
+			.row {
+				padding-left: 11rem;
+			}
+		}
+			
+			
+	}
+	footer {
+		.container {
+			h2 {
+				    		font-family: "Open Sans", sans-serif;
+    		font-weight: 800;
+    		font-weight: 800;
+    		font-size: 2rem;
+    		letter-spacing: 0;
+    		color: $orange;
+    		text-shadow: 0px 3px 6px #00000029;
+			}
+			form {
+				label {
+					color: $white;
+				}
+				button {
+					background-color: $orange;
+					border-color: $orange;
+					color: $white;
+					font-weight: 500;
+				}
+				
+			}
+		}
+		img {
+			position: relative;
+			left: 5rem;
+		}
+	}
+
+}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+body {
+	background: transparent url("../images/GILD-LOGO-LOOP.png");
+////	background-position: left center;
+////    background-repeat: repeat-x;
+//	  background-position: space 0 0;
+	background-size: 8rem;
+				.oranged {
+					color: $orange !important;
+				}
+	
+		.navbar {
+    position: absolute !important;
+			z-index: 1;
+			.fa-desktop:hover {
+				color: $light-blue !important;
+			}
+		}
+	
+	.jumbotron {
+		background: transparent linear-gradient(180deg, #FFFFFF 0%, #7FDBFF 100%) 0% 0% no-repeat padding-box;
+		height: 100vh;
+		padding-top: 11rem;
+		clip-path: polygon(0 0, 100% 0, 100% 66%, 0% 100%);
+			h1 {
+			text-align: left;
+			text-shadow: 0px 3px 6px #00000029;
+			color: #fff;
+			font-family: $montserrat;
+			font-weight: 900;
+			font-size: 9.5rem;
+			line-height: 0.7;
+			
+		}
+		p {
+			text-align: left;
+            font-family: $open-sans;
+            font-size: 1.4rem;
+            letter-spacing: 0;
+            color: #FFFFFF;
+            text-shadow: 0px 3px 6px #00000029;
+		}
+
+	}
+		.computer {
+			 position: absolute;
+    		 z-index: 1;
+             top: 8rem;
+             right: 5rem;
+
+		}
+	.about-wrapper {
+		padding: 5rem;
+		height: 100%;
+		background: url("../images/typing.png") no-repeat center;
+		background-size: cover;
+			clip-path: polygon(0 46%, 100% 0, 100% 100%, 0% 100%);
+		
+		
+		.container-fluid {
+			padding-top: 3rem;
+			h1 {
+			margin-top: 0rem; 
+    		text-align: center;
+    		font-family: "Open Sans", sans-serif;
+    		font-weight: 800;
+    		font-weight: 800;
+    		font-size: 4rem;
+    		letter-spacing: 0;
+    		color: #7FDBFF;
+    		text-shadow: 0px 3px 6px #00000029;
+			}
+			p {
+			margin: 1rem;
+			text-align: center;
+			font: 1.5rem $open-sans;	
+			letter-spacing: 0;
+			color: $white;
+			text-shadow: 0px 3px 6px #00000029;
+			}
+		}
+	}
+		.course-wrapper {
+		height: 100vh;
+		background-color: $orange;
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 0 66%);
+		margin-bottom: -25rem;
+		
+		.container {
+			h1 {
+			padding-top: 3rem;
+    		font-family: "Open Sans", sans-serif;
+    		font-weight: 800;
+    		font-weight: 800;
+    		font-size: 4rem;
+    		letter-spacing: 0;
+    		color: #7FDBFF;
+    		text-shadow: 0px 3px 6px #00000029;
+			}
+						h2 {
+    		text-align: center;
+    		font-family: "Open Sans", sans-serif;
+    		font-weight: 800;
+    		font-weight: 800;
+    		font-size: 2rem;
+    		letter-spacing: 0;
+    		color: #7FDBFF;
+    		text-shadow: 0px 3px 6px #00000029;
+			}
+			p {
+			margin: 1rem;
+			font: 1.5rem $open-sans;	
+			letter-spacing: 0;
+			color: $white;
+			text-shadow: 0px 3px 6px #00000029;
+			}
+		}
+	}
+	.accredation-wrapper {
+		background-color: #7fdbffc2;
+		height: 100%; 
+
+	
+		.container-fluid {
+			h1 {
+				line-height: 0.9;
+    		font-family: "Open Sans", sans-serif;
+    		font-weight: 800;
+    		font-weight: 800;
+    		font-size: 4rem;
+    		letter-spacing: 0;
+    		color: $orange;
+    		text-shadow: 0px 3px 6px #00000029;
+			}
+			.row {
+				padding-left: 11rem;
+			}
+		}
+			
+			
+	}
+	footer {
+		.container {
+			h2 {
+				    		font-family: "Open Sans", sans-serif;
+    		font-weight: 800;
+    		font-weight: 800;
+    		font-size: 2rem;
+    		letter-spacing: 0;
+    		color: $orange;
+    		text-shadow: 0px 3px 6px #00000029;
+			}
+			form {
+				label {
+					color: $white;
+				}
+				button {
+					background-color: $orange;
+					border-color: $orange;
+					color: $white;
+					font-weight: 500;
+				}
+				
+			}
+		}
+		img {
+			position: relative;
+			left: 5rem;
+		}
+	}
+
+}
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+body {
+	background: transparent url("../images/GILD-LOGO-LOOP.png");
+////	background-position: left center;
+////    background-repeat: repeat-x;
+//	  background-position: space 0 0;
+	background-size: 8rem;
+				.oranged {
+					color: $orange !important;
+				}
+	
+		.navbar {
+    position: absolute !important;
+			z-index: 1;
+			.fa-desktop:hover {
+				color: $light-blue !important;
+			}
+		}
+	
+	.jumbotron {
+		background: transparent linear-gradient(180deg, #FFFFFF 0%, #7FDBFF 100%) 0% 0% no-repeat padding-box;
+		height: 100vh;
+		padding-top: 11rem;
+		clip-path: polygon(0 0, 100% 0, 100% 66%, 0% 100%);
+			h1 {
+			text-align: left;
+			text-shadow: 0px 3px 6px #00000029;
+			color: #fff;
+			font-family: $montserrat;
+			font-weight: 900;
+			font-size: 9.5rem;
+			line-height: 0.7;
+			
+		}
+		p {
+			text-align: left;
+            font-family: $open-sans;
+            font-size: 1.4rem;
+            letter-spacing: 0;
+            color: #FFFFFF;
+            text-shadow: 0px 3px 6px #00000029;
+		}
+
+	}
+		.computer {
+			 position: absolute;
+    		 z-index: 1;
+             top: 8rem;
+             right: 5rem;
+
+		}
+	.about-wrapper {
+		padding: 5rem;
+		height: 100%;
+		background: url("../images/typing.png") no-repeat center;
+		background-size: cover;
+			clip-path: polygon(0 46%, 100% 0, 100% 100%, 0% 100%);
+		
+		
+		.container-fluid {
+			padding-top: 3rem;
+			h1 {
+			margin-top: 0rem; 
+    		text-align: center;
+    		font-family: "Open Sans", sans-serif;
+    		font-weight: 800;
+    		font-weight: 800;
+    		font-size: 4rem;
+    		letter-spacing: 0;
+    		color: #7FDBFF;
+    		text-shadow: 0px 3px 6px #00000029;
+			}
+			p {
+			margin: 1rem;
+			text-align: center;
+			font: 1.5rem $open-sans;	
+			letter-spacing: 0;
+			color: $white;
+			text-shadow: 0px 3px 6px #00000029;
+			}
+		}
+	}
+		.course-wrapper {
+		height: 100vh;
+		background-color: $orange;
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 0 66%);
+		margin-bottom: -25rem;
+		
+		.container {
+			h1 {
+			padding-top: 3rem;
+    		font-family: "Open Sans", sans-serif;
+    		font-weight: 800;
+    		font-weight: 800;
+    		font-size: 4rem;
+    		letter-spacing: 0;
+    		color: #7FDBFF;
+    		text-shadow: 0px 3px 6px #00000029;
+			}
+						h2 {
+    		text-align: center;
+    		font-family: "Open Sans", sans-serif;
+    		font-weight: 800;
+    		font-weight: 800;
+    		font-size: 2rem;
+    		letter-spacing: 0;
+    		color: #7FDBFF;
+    		text-shadow: 0px 3px 6px #00000029;
+			}
+			p {
+			margin: 1rem;
+			font: 1.5rem $open-sans;	
+			letter-spacing: 0;
+			color: $white;
+			text-shadow: 0px 3px 6px #00000029;
+			}
+		}
+	}
+	.accredation-wrapper {
+		background-color: #7fdbffc2;
+		height: 100%; 
+
+	
+		.container-fluid {
+			h1 {
+				line-height: 0.9;
+    		font-family: "Open Sans", sans-serif;
+    		font-weight: 800;
+    		font-weight: 800;
+    		font-size: 4rem;
+    		letter-spacing: 0;
+    		color: $orange;
+    		text-shadow: 0px 3px 6px #00000029;
+			}
+			.row {
+				padding-left: 11rem;
+			}
+		}
+			
+			
+	}
+	footer {
+		.container {
+			h2 {
+				    		font-family: "Open Sans", sans-serif;
+    		font-weight: 800;
+    		font-weight: 800;
+    		font-size: 2rem;
+    		letter-spacing: 0;
+    		color: $orange;
+    		text-shadow: 0px 3px 6px #00000029;
+			}
+			form {
+				label {
+					color: $white;
+				}
+				button {
+					background-color: $orange;
+					border-color: $orange;
+					color: $white;
+					font-weight: 500;
+				}
+				
+			}
+		}
+		img {
+			position: relative;
+			left: 5rem;
+		}
+	}
+
+}
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+	body {
+	background: transparent url("../images/GILD-LOGO-LOOP.png");
+////	background-position: left center;
+////    background-repeat: repeat-x;
+//	  background-position: space 0 0;
+	background-size: 8rem;
+				.oranged {
+					color: $orange !important;
+				}
+	
+		.navbar {
+    position: absolute !important;
+			z-index: 1;
+			.fa-desktop:hover {
+				color: $light-blue !important;
+			}
+		}
+	
+	.jumbotron {
+		background: transparent linear-gradient(180deg, #FFFFFF 0%, #7FDBFF 100%) 0% 0% no-repeat padding-box;
+		height: 100vh;
+		padding-top: 11rem;
+		clip-path: polygon(0 0, 100% 0, 100% 66%, 0% 100%);
+			h1 {
+			text-align: left;
+			text-shadow: 0px 3px 6px #00000029;
+			color: #fff;
+			font-family: $montserrat;
+			font-weight: 900;
+			font-size: 9.5rem;
+			line-height: 0.7;
+			
+		}
+		p {
+			text-align: left;
+            font-family: $open-sans;
+            font-size: 1.4rem;
+            letter-spacing: 0;
+            color: #FFFFFF;
+            text-shadow: 0px 3px 6px #00000029;
+		}
+
+	}
+		.computer {
+			 position: absolute;
+    		 z-index: 1;
+             top: 8rem;
+             right: 5rem;
+
+		}
+	.about-wrapper {
+		
+		padding: 5rem;
+		height: 100%;
+		background: url("../images/typing.png") no-repeat center;
+		background-size: cover;
+			clip-path: polygon(0 46%, 100% 0, 100% 100%, 0% 100%);
+		
+		
+		.container-fluid {
+			padding-top: 3rem;
+			h1 {
+			margin-top: 0rem; 
+    		text-align: center;
+    		font-family: "Open Sans", sans-serif;
+    		font-weight: 800;
+    		font-weight: 800;
+    		font-size: 4rem;
+    		letter-spacing: 0;
+    		color: #7FDBFF;
+    		text-shadow: 0px 3px 6px #00000029;
+			}
+			p {
+			margin: 1rem;
+			text-align: center;
+			font: 1.5rem $open-sans;	
+			letter-spacing: 0;
+			color: $white;
+			text-shadow: 0px 3px 6px #00000029;
+			}
+		}
+	}
+		.course-wrapper {
+		height: 100vh;
+		background-color: $orange;
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 0 66%);
+		margin-bottom: -25rem;
+		
+		.container {
+			h1 {
+			padding-top: 3rem;
+    		font-family: "Open Sans", sans-serif;
+    		font-weight: 800;
+    		font-weight: 800;
+    		font-size: 4rem;
+    		letter-spacing: 0;
+    		color: #7FDBFF;
+    		text-shadow: 0px 3px 6px #00000029;
+			}
+						h2 {
+    		text-align: center;
+    		font-family: "Open Sans", sans-serif;
+    		font-weight: 800;
+    		font-weight: 800;
+    		font-size: 2rem;
+    		letter-spacing: 0;
+    		color: #7FDBFF;
+    		text-shadow: 0px 3px 6px #00000029;
+			}
+			p {
+			margin: 1rem;
+			font: 1.5rem $open-sans;	
+			letter-spacing: 0;
+			color: $white;
+			text-shadow: 0px 3px 6px #00000029;
+			}
+		}
+	}
+	.accredation-wrapper {
+		background-color: #7fdbffc2;
+		height: 100%; 
+		
+
+	
+		.container-fluid {
+			h1 {
+				line-height: 0.9;
+    		font-family: "Open Sans", sans-serif;
+    		font-weight: 800;
+    		font-weight: 800;
+    		font-size: 4rem;
+    		letter-spacing: 0;
+    		color: $orange;
+    		text-shadow: 0px 3px 6px #00000029;
+			}
+			.row {
+				padding-left: 11rem;
+			}
+
+		}
+
+			
+			
+	}
+	footer {
+		.container {
+			h2 {
+				    		font-family: "Open Sans", sans-serif;
+    		font-weight: 800;
+    		font-weight: 800;
+    		font-size: 2rem;
+    		letter-spacing: 0;
+    		color: $orange;
+    		text-shadow: 0px 3px 6px #00000029;
+			}
+			form {
+				label {
+					color: $white;
+				}
+				button {
+					background-color: $orange;
+					border-color: $orange;
+					color: $white;
+					font-weight: 500;
+				}
+				
+			}
+		}
+		img {
+			position: relative;
+			left: 5rem;
+		}
+	}
+
+}
+}
+
+/* iPad 3 (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (-webkit-min-device-pixel-ratio : 2),
+only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (min-resolution: 192dpi) { 
+   body {
+	background: transparent url("../images/GILD-LOGO-LOOP.png");
+////	background-position: left center;
+////    background-repeat: repeat-x;
+//	  background-position: space 0 0;
+	background-size: 8rem;
+				.oranged {
+					color: $orange !important;
+				}
+	
+		.navbar {
+    position: absolute !important;
+			z-index: 1;
+			.fa-desktop:hover {
+				color: $light-blue !important;
+			}
+		}
+	
+	.jumbotron {
+		background: transparent linear-gradient(180deg, #FFFFFF 0%, #7FDBFF 100%) 0% 0% no-repeat padding-box;
+		height: 100vh;
+		padding-top: 11rem;
+		clip-path: polygon(0 0, 100% 0, 100% 66%, 0% 100%);
+			h1 {
+			text-align: left;
+			text-shadow: 0px 3px 6px #00000029;
+			color: #fff;
+			font-family: $montserrat;
+			font-weight: 900;
+			font-size: 9.5rem;
+			line-height: 0.7;
+			
+		}
+		p {
+			text-align: left;
+            font-family: $open-sans;
+            font-size: 1.4rem;
+            letter-spacing: 0;
+            color: #FFFFFF;
+            text-shadow: 0px 3px 6px #00000029;
+		}
+
+	}
+		.computer {
+			 position: absolute;
+    		 z-index: 1;
+             top: 8rem;
+             right: 5rem;
+
+		}
+	.about-wrapper {
+		padding: 5rem;
+		height: 100%;
+		background: url("../images/typing.png") no-repeat center;
+		background-size: cover;
+			clip-path: polygon(0 46%, 100% 0, 100% 100%, 0% 100%);
+		
+		
+		.container-fluid {
+			padding-top: 3rem;
+			h1 {
+			margin-top: 0rem; 
+    		text-align: center;
+    		font-family: "Open Sans", sans-serif;
+    		font-weight: 800;
+    		font-weight: 800;
+    		font-size: 4rem;
+    		letter-spacing: 0;
+    		color: #7FDBFF;
+    		text-shadow: 0px 3px 6px #00000029;
+			}
+			p {
+			margin: 1rem;
+			text-align: center;
+			font: 1.5rem $open-sans;	
+			letter-spacing: 0;
+			color: $white;
+			text-shadow: 0px 3px 6px #00000029;
+			}
+		}
+	}
+		.course-wrapper {
+		height: 100vh;
+		background-color: $orange;
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 0 66%);
+		margin-bottom: -25rem;
+		
+		.container {
+			h1 {
+			padding-top: 3rem;
+    		font-family: "Open Sans", sans-serif;
+    		font-weight: 800;
+    		font-weight: 800;
+    		font-size: 4rem;
+    		letter-spacing: 0;
+    		color: #7FDBFF;
+    		text-shadow: 0px 3px 6px #00000029;
+			}
+						h2 {
+    		text-align: center;
+    		font-family: "Open Sans", sans-serif;
+    		font-weight: 800;
+    		font-weight: 800;
+    		font-size: 2rem;
+    		letter-spacing: 0;
+    		color: #7FDBFF;
+    		text-shadow: 0px 3px 6px #00000029;
+			}
+			p {
+			margin: 1rem;
+			font: 1.5rem $open-sans;	
+			letter-spacing: 0;
+			color: $white;
+			text-shadow: 0px 3px 6px #00000029;
+			}
+		}
+	}
+	.accredation-wrapper {
+		background-color: #7fdbffc2;
+		height: 100%; 
+
+	
+		.container-fluid {
+			h1 {
+				line-height: 0.9;
+    		font-family: "Open Sans", sans-serif;
+    		font-weight: 800;
+    		font-weight: 800;
+    		font-size: 4rem;
+    		letter-spacing: 0;
+    		color: $orange;
+    		text-shadow: 0px 3px 6px #00000029;
+			}
+			.row {
+				padding-left: 11rem;
+			}
+		}
+			
+			
+	}
+	footer {
+		.container {
+			h2 {
+				    		font-family: "Open Sans", sans-serif;
+    		font-weight: 800;
+    		font-weight: 800;
+    		font-size: 2rem;
+    		letter-spacing: 0;
+    		color: $orange;
+    		text-shadow: 0px 3px 6px #00000029;
+			}
+			form {
+				label {
+					color: $white;
+				}
+				button {
+					background-color: $orange;
+					border-color: $orange;
+					color: $white;
+					font-weight: 500;
+				}
+				
+			}
+		}
+		img {
+			position: relative;
+			left: 5rem;
+		}
+	}
+
+}
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+	body {
+	background: transparent url("../images/GILD-LOGO-LOOP.png");
+	background-size: 8rem;
+				.oranged {
+					color: $orange !important;
+				}
+	
+		.navbar {
+    position: absolute !important;
+			z-index: 1;
+			.fa-desktop:hover {
+				color: $light-blue !important;
+			}
+		}
+	
+	.jumbotron {
+		background: transparent linear-gradient(180deg, #FFFFFF 0%, #7FDBFF 100%) 0% 0% no-repeat padding-box;
+		height: 100vh;
+		padding-top: 5rem;
+		clip-path: polygon(0 0, 100% 0, 100% 66%, 0% 100%);
+			h1 {
+			text-align: left;
+			text-shadow: 0px 3px 6px #00000029;
+			color: #fff;
+			font-family: $montserrat;
+			font-weight: 900;
+			font-size: 8.5rem;
+			line-height: 0.7;
+			
+		}
+		p {
+			text-align: left;
+            font-family: $open-sans;
+            font-size: 1.4rem;
+            letter-spacing: 0;
+            color: #FFFFFF;
+            text-shadow: 0px 3px 6px #00000029;
+		}
+
+	}
+		.computer {
+			 position: absolute;
+    		 z-index: 1;
+             top: 1rem;
+             right: 5rem;
+
+		}
+	.about-wrapper {
+		padding: 5rem;
+		height: 100%;
+		background: url("../images/typing.png") no-repeat center;
+		background-size: cover;
+			clip-path: polygon(0 46%, 100% 0, 100% 100%, 0% 100%);
+		
+		
+		.container-fluid {
+			padding-top: 3rem;
+			h1 {
+			margin-top: 0rem; 
+    		text-align: center;
+    		font-family: "Open Sans", sans-serif;
+    		font-weight: 800;
+    		font-weight: 800;
+    		font-size: 4rem;
+    		letter-spacing: 0;
+    		color: #7FDBFF;
+    		text-shadow: 0px 3px 6px #00000029;
+			}
+			p {
+			margin: 1rem;
+			text-align: center;
+			font: 1.5rem $open-sans;	
+			letter-spacing: 0;
+			color: $white;
+			text-shadow: 0px 3px 6px #00000029;
+			}
+		}
+	}
+		.course-wrapper {
+		height: 100vh;
+		background-color: $orange;
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 0 66%);
+		margin-bottom: -25rem;
+		
+		.container {
+			h1 {
+			padding-top: 3rem;
+    		font-family: "Open Sans", sans-serif;
+    		font-weight: 800;
+    		font-weight: 800;
+    		font-size: 4rem;
+    		letter-spacing: 0;
+    		color: #7FDBFF;
+    		text-shadow: 0px 3px 6px #00000029;
+			}
+						h2 {
+    		text-align: center;
+    		font-family: "Open Sans", sans-serif;
+    		font-weight: 800;
+    		font-weight: 800;
+    		font-size: 2rem;
+    		letter-spacing: 0;
+    		color: #7FDBFF;
+    		text-shadow: 0px 3px 6px #00000029;
+			}
+			p {
+			margin: 1rem;
+			font: 1.5rem $open-sans;	
+			letter-spacing: 0;
+			color: $white;
+			text-shadow: 0px 3px 6px #00000029;
+			}
+		}
+	}
+	.accredation-wrapper {
+		background-color: #7fdbffc2;
+		height: 60vh; 
+		margin-top: 10rem;
+	
+		.container-fluid {
+			h1 {
+				line-height: 0.9;
+    		font-family: "Open Sans", sans-serif;
+    		font-weight: 800;
+    		font-weight: 800;
+    		font-size: 4rem;
+    		letter-spacing: 0;
+    		color: $orange;
+    		text-shadow: 0px 3px 6px #00000029;
+			}
+			.row {
+				
+								.img1 {
+				    position: relative;
+    				top: 5rem;
+			}
+			.img2 {
+				    position: relative;
+                    top: 5rem;
+				width: 350px;
+			}
+			}
+			
+		}
+			
+			
+	}
+	footer {
+		.container {
+			h2 {
+				    		font-family: "Open Sans", sans-serif;
+    		font-weight: 800;
+    		font-weight: 800;
+    		font-size: 2rem;
+    		letter-spacing: 0;
+    		color: $orange;
+    		text-shadow: 0px 3px 6px #00000029;
+			}
+			form {
+				label {
+					color: $white;
+				}
+				button {
+					background-color: $orange;
+					border-color: $orange;
+					color: $white;
+					font-weight: 500;
+				}
+				
+			}
+		}
+		img {
+			position: relative;
+			left: 5rem;
+		}
+	}
+
+}
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+	body {
+	background: transparent url("../images/GILD-LOGO-LOOP.png");
+	background-size: 8rem;
+				.oranged {
+					color: $orange !important;
+				}
+	
+		.navbar {
+    position: absolute !important;
+			z-index: 1;
+			.fa-desktop:hover {
+				color: $light-blue !important;
+			}
+		}
+	
+	.jumbotron {
+		background: transparent linear-gradient(180deg, #FFFFFF 0%, #7FDBFF 100%) 0% 0% no-repeat padding-box;
+		height: 100vh;
+		padding-top: 9rem;
+		clip-path: polygon(0 0, 100% 0, 100% 66%, 0% 100%);
+			h1 {
+			text-align: left;
+			text-shadow: 0px 3px 6px #00000029;
+			color: #fff;
+			font-family: $montserrat;
+			font-weight: 900;
+			font-size: 13.5rem;
+			line-height: 0.7;
+			
+		}
+		p {
+			text-align: left;
+            font-family: $open-sans;
+            font-size: 2.4rem;
+            letter-spacing: 0;
+            color: #FFFFFF;
+            text-shadow: 0px 3px 6px #00000029;
+		}
+
+	}
+		.computer {
+    position: absolute;
+    z-index: 1;
+    top: 3rem;
+    right: 5rem;
+    width: 900px;
+
+		}
+	.about-wrapper {
+		padding: 5rem;
+		height: 100%;
+		background: url("../images/typing.png") no-repeat center;
+		background-size: cover;
+			clip-path: polygon(0 46%, 100% 0, 100% 100%, 0% 100%);
+		
+		
+		.container-fluid {
+			padding-top: 3rem;
+			h1 {
+			margin-top: 0rem; 
+    		text-align: center;
+    		font-family: "Open Sans", sans-serif;
+    		font-weight: 800;
+    		font-weight: 800;
+    		font-size: 4rem;
+    		letter-spacing: 0;
+    		color: #7FDBFF;
+    		text-shadow: 0px 3px 6px #00000029;
+			}
+			p {
+			margin: 1rem;
+			text-align: center;
+			font: 1.5rem $open-sans;	
+			letter-spacing: 0;
+			color: $white;
+			text-shadow: 0px 3px 6px #00000029;
+			}
+		}
+	}
+		.course-wrapper {
+		height: 100vh;
+		background-color: $orange;
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 0 66%);
+		margin-bottom: -25rem;
+		
+		.container {
+			h1 {
+			padding-top: 3rem;
+    		font-family: "Open Sans", sans-serif;
+    		font-weight: 800;
+    		font-weight: 800;
+    		font-size: 4rem;
+    		letter-spacing: 0;
+    		color: #7FDBFF;
+    		text-shadow: 0px 3px 6px #00000029;
+			}
+						h2 {
+    		text-align: center;
+    		font-family: "Open Sans", sans-serif;
+    		font-weight: 800;
+    		font-weight: 800;
+    		font-size: 2rem;
+    		letter-spacing: 0;
+    		color: #7FDBFF;
+    		text-shadow: 0px 3px 6px #00000029;
+			}
+			p {
+			margin: 1rem;
+			font: 1.5rem $open-sans;	
+			letter-spacing: 0;
+			color: $white;
+			text-shadow: 0px 3px 6px #00000029;
+			}
+		}
+	}
+	.accredation-wrapper {
+		background-color: #7fdbffc2;
+		height: 100%; 
+
+	
+		.container-fluid {
+			h1 {
+				line-height: 0.9;
+    		font-family: "Open Sans", sans-serif;
+    		font-weight: 800;
+    		font-weight: 800;
+    		font-size: 4rem;
+    		letter-spacing: 0;
+    		color: $orange;
+    		text-shadow: 0px 3px 6px #00000029;
+			}
+			.row {
+				padding-left: 11rem;
+			}
+		}
+			
+			
+	}
+	footer {
+		.container {
+			h2 {
+				    		font-family: "Open Sans", sans-serif;
+    		font-weight: 800;
+    		font-weight: 800;
+    		font-size: 2rem;
+    		letter-spacing: 0;
+    		color: $orange;
+    		text-shadow: 0px 3px 6px #00000029;
+			}
+			form {
+				label {
+					color: $white;
+				}
+				button {
+					background-color: $orange;
+					border-color: $orange;
+					color: $white;
+					font-weight: 500;
+				}
+				
+			}
+		}
+		img {
+			position: relative;
+			left: 5rem;
+		}
+	}
+
+}
+}
+
+/* Retina displays ----------- */
+@media  only screen 
+and (-webkit-min-device-pixel-ratio : 2), 
+only screen 
+and (min-resolution: 192dpi) {
+
+}
+

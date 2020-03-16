@@ -1,0 +1,1117 @@
+/* Scss Document */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,900|Open+Sans:400,800&display=swap");
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  body {
+    background: transparent url("../images/GILD-LOGO-LOOP.png");
+    background-size: 8rem; }
+    body .oranged {
+      color: #FF851B !important; }
+    body .navbar {
+      position: absolute !important;
+      z-index: 1; }
+      body .navbar .fa-desktop:hover {
+        color: #7FDBFF !important; }
+    body .jumbotron {
+      background: transparent linear-gradient(180deg, #FFFFFF 0%, #7FDBFF 100%) 0% 0% no-repeat padding-box;
+      height: 100vh;
+      padding-top: 11rem;
+      clip-path: polygon(0 0, 100% 0, 100% 66%, 0% 100%); }
+      body .jumbotron h1 {
+        text-align: left;
+        text-shadow: 0px 3px 6px #00000029;
+        color: #fff;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 900;
+        font-size: 9.5rem;
+        line-height: 0.7; }
+      body .jumbotron p {
+        text-align: left;
+        font-family: "Open Sans", sans-serif;
+        font-size: 1.4rem;
+        letter-spacing: 0;
+        color: #FFFFFF;
+        text-shadow: 0px 3px 6px #00000029; }
+    body .computer {
+      position: absolute;
+      z-index: 1;
+      top: 8rem;
+      right: 5rem; }
+    body .about-wrapper {
+      padding: 5rem;
+      height: 100%;
+      background: url("../images/typing.png") no-repeat center;
+      background-size: cover;
+      clip-path: polygon(0 46%, 100% 0, 100% 100%, 0% 100%); }
+      body .about-wrapper .container-fluid {
+        padding-top: 3rem; }
+        body .about-wrapper .container-fluid h1 {
+          margin-top: 0rem;
+          text-align: center;
+          font-family: "Open Sans", sans-serif;
+          font-weight: 800;
+          font-weight: 800;
+          font-size: 4rem;
+          letter-spacing: 0;
+          color: #7FDBFF;
+          text-shadow: 0px 3px 6px #00000029; }
+        body .about-wrapper .container-fluid p {
+          margin: 1rem;
+          text-align: center;
+          font: 1.5rem "Open Sans", sans-serif;
+          letter-spacing: 0;
+          color: #ffffff;
+          text-shadow: 0px 3px 6px #00000029; }
+    body .course-wrapper {
+      height: 100vh;
+      background-color: #FF851B;
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 66%);
+      margin-bottom: -25rem; }
+      body .course-wrapper .container h1 {
+        padding-top: 3rem;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 800;
+        font-weight: 800;
+        font-size: 4rem;
+        letter-spacing: 0;
+        color: #7FDBFF;
+        text-shadow: 0px 3px 6px #00000029; }
+      body .course-wrapper .container h2 {
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 800;
+        font-weight: 800;
+        font-size: 2rem;
+        letter-spacing: 0;
+        color: #7FDBFF;
+        text-shadow: 0px 3px 6px #00000029; }
+      body .course-wrapper .container p {
+        margin: 1rem;
+        font: 1.5rem "Open Sans", sans-serif;
+        letter-spacing: 0;
+        color: #ffffff;
+        text-shadow: 0px 3px 6px #00000029; }
+    body .accredation-wrapper {
+      background-color: #7fdbffc2;
+      height: 100%; }
+      body .accredation-wrapper .container-fluid h1 {
+        line-height: 0.9;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 800;
+        font-weight: 800;
+        font-size: 4rem;
+        letter-spacing: 0;
+        color: #FF851B;
+        text-shadow: 0px 3px 6px #00000029; }
+      body .accredation-wrapper .container-fluid .row {
+        padding-left: 11rem; }
+    body footer .container h2 {
+      font-family: "Open Sans", sans-serif;
+      font-weight: 800;
+      font-weight: 800;
+      font-size: 2rem;
+      letter-spacing: 0;
+      color: #FF851B;
+      text-shadow: 0px 3px 6px #00000029; }
+    body footer .container form label {
+      color: #ffffff; }
+    body footer .container form button {
+      background-color: #FF851B;
+      border-color: #FF851B;
+      color: #ffffff;
+      font-weight: 500; }
+    body footer img {
+      position: relative;
+      left: 5rem; } }
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width: 321px) {
+  body {
+    background: transparent url("../images/GILD-LOGO-LOOP.png");
+    background-size: 8rem; }
+    body .oranged {
+      color: #FF851B !important; }
+    body .navbar {
+      position: absolute !important;
+      z-index: 1; }
+      body .navbar .fa-desktop:hover {
+        color: #7FDBFF !important; }
+    body .jumbotron {
+      background: transparent linear-gradient(180deg, #FFFFFF 0%, #7FDBFF 100%) 0% 0% no-repeat padding-box;
+      height: 100vh;
+      padding-top: 11rem;
+      clip-path: polygon(0 0, 100% 0, 100% 66%, 0% 100%); }
+      body .jumbotron h1 {
+        text-align: left;
+        text-shadow: 0px 3px 6px #00000029;
+        color: #fff;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 900;
+        font-size: 9.5rem;
+        line-height: 0.7; }
+      body .jumbotron p {
+        text-align: left;
+        font-family: "Open Sans", sans-serif;
+        font-size: 1.4rem;
+        letter-spacing: 0;
+        color: #FFFFFF;
+        text-shadow: 0px 3px 6px #00000029; }
+    body .computer {
+      position: absolute;
+      z-index: 1;
+      top: 8rem;
+      right: 5rem; }
+    body .about-wrapper {
+      padding: 5rem;
+      height: 100%;
+      background: url("../images/typing.png") no-repeat center;
+      background-size: cover;
+      clip-path: polygon(0 46%, 100% 0, 100% 100%, 0% 100%); }
+      body .about-wrapper .container-fluid {
+        padding-top: 3rem; }
+        body .about-wrapper .container-fluid h1 {
+          margin-top: 0rem;
+          text-align: center;
+          font-family: "Open Sans", sans-serif;
+          font-weight: 800;
+          font-weight: 800;
+          font-size: 4rem;
+          letter-spacing: 0;
+          color: #7FDBFF;
+          text-shadow: 0px 3px 6px #00000029; }
+        body .about-wrapper .container-fluid p {
+          margin: 1rem;
+          text-align: center;
+          font: 1.5rem "Open Sans", sans-serif;
+          letter-spacing: 0;
+          color: #ffffff;
+          text-shadow: 0px 3px 6px #00000029; }
+    body .course-wrapper {
+      height: 100vh;
+      background-color: #FF851B;
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 66%);
+      margin-bottom: -25rem; }
+      body .course-wrapper .container h1 {
+        padding-top: 3rem;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 800;
+        font-weight: 800;
+        font-size: 4rem;
+        letter-spacing: 0;
+        color: #7FDBFF;
+        text-shadow: 0px 3px 6px #00000029; }
+      body .course-wrapper .container h2 {
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 800;
+        font-weight: 800;
+        font-size: 2rem;
+        letter-spacing: 0;
+        color: #7FDBFF;
+        text-shadow: 0px 3px 6px #00000029; }
+      body .course-wrapper .container p {
+        margin: 1rem;
+        font: 1.5rem "Open Sans", sans-serif;
+        letter-spacing: 0;
+        color: #ffffff;
+        text-shadow: 0px 3px 6px #00000029; }
+    body .accredation-wrapper {
+      background-color: #7fdbffc2;
+      height: 100%; }
+      body .accredation-wrapper .container-fluid h1 {
+        line-height: 0.9;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 800;
+        font-weight: 800;
+        font-size: 4rem;
+        letter-spacing: 0;
+        color: #FF851B;
+        text-shadow: 0px 3px 6px #00000029; }
+      body .accredation-wrapper .container-fluid .row {
+        padding-left: 11rem; }
+    body footer .container h2 {
+      font-family: "Open Sans", sans-serif;
+      font-weight: 800;
+      font-weight: 800;
+      font-size: 2rem;
+      letter-spacing: 0;
+      color: #FF851B;
+      text-shadow: 0px 3px 6px #00000029; }
+    body footer .container form label {
+      color: #ffffff; }
+    body footer .container form button {
+      background-color: #FF851B;
+      border-color: #FF851B;
+      color: #ffffff;
+      font-weight: 500; }
+    body footer img {
+      position: relative;
+      left: 5rem; } }
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 320px) {
+  body {
+    background: transparent url("../images/GILD-LOGO-LOOP.png");
+    background-size: 8rem; }
+    body .oranged {
+      color: #FF851B !important; }
+    body .navbar {
+      position: absolute !important;
+      z-index: 1; }
+      body .navbar .fa-desktop:hover {
+        color: #7FDBFF !important; }
+    body .jumbotron {
+      background: transparent linear-gradient(180deg, #FFFFFF 0%, #7FDBFF 100%) 0% 0% no-repeat padding-box;
+      height: 100vh;
+      padding-top: 11rem;
+      clip-path: polygon(0 0, 100% 0, 100% 66%, 0% 100%); }
+      body .jumbotron h1 {
+        text-align: left;
+        text-shadow: 0px 3px 6px #00000029;
+        color: #fff;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 900;
+        font-size: 9.5rem;
+        line-height: 0.7; }
+      body .jumbotron p {
+        text-align: left;
+        font-family: "Open Sans", sans-serif;
+        font-size: 1.4rem;
+        letter-spacing: 0;
+        color: #FFFFFF;
+        text-shadow: 0px 3px 6px #00000029; }
+    body .computer {
+      position: absolute;
+      z-index: 1;
+      top: 8rem;
+      right: 5rem; }
+    body .about-wrapper {
+      padding: 5rem;
+      height: 100%;
+      background: url("../images/typing.png") no-repeat center;
+      background-size: cover;
+      clip-path: polygon(0 46%, 100% 0, 100% 100%, 0% 100%); }
+      body .about-wrapper .container-fluid {
+        padding-top: 3rem; }
+        body .about-wrapper .container-fluid h1 {
+          margin-top: 0rem;
+          text-align: center;
+          font-family: "Open Sans", sans-serif;
+          font-weight: 800;
+          font-weight: 800;
+          font-size: 4rem;
+          letter-spacing: 0;
+          color: #7FDBFF;
+          text-shadow: 0px 3px 6px #00000029; }
+        body .about-wrapper .container-fluid p {
+          margin: 1rem;
+          text-align: center;
+          font: 1.5rem "Open Sans", sans-serif;
+          letter-spacing: 0;
+          color: #ffffff;
+          text-shadow: 0px 3px 6px #00000029; }
+    body .course-wrapper {
+      height: 100vh;
+      background-color: #FF851B;
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 66%);
+      margin-bottom: -25rem; }
+      body .course-wrapper .container h1 {
+        padding-top: 3rem;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 800;
+        font-weight: 800;
+        font-size: 4rem;
+        letter-spacing: 0;
+        color: #7FDBFF;
+        text-shadow: 0px 3px 6px #00000029; }
+      body .course-wrapper .container h2 {
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 800;
+        font-weight: 800;
+        font-size: 2rem;
+        letter-spacing: 0;
+        color: #7FDBFF;
+        text-shadow: 0px 3px 6px #00000029; }
+      body .course-wrapper .container p {
+        margin: 1rem;
+        font: 1.5rem "Open Sans", sans-serif;
+        letter-spacing: 0;
+        color: #ffffff;
+        text-shadow: 0px 3px 6px #00000029; }
+    body .accredation-wrapper {
+      background-color: #7fdbffc2;
+      height: 100%; }
+      body .accredation-wrapper .container-fluid h1 {
+        line-height: 0.9;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 800;
+        font-weight: 800;
+        font-size: 4rem;
+        letter-spacing: 0;
+        color: #FF851B;
+        text-shadow: 0px 3px 6px #00000029; }
+      body .accredation-wrapper .container-fluid .row {
+        padding-left: 11rem; }
+    body footer .container h2 {
+      font-family: "Open Sans", sans-serif;
+      font-weight: 800;
+      font-weight: 800;
+      font-size: 2rem;
+      letter-spacing: 0;
+      color: #FF851B;
+      text-shadow: 0px 3px 6px #00000029; }
+    body footer .container form label {
+      color: #ffffff; }
+    body footer .container form button {
+      background-color: #FF851B;
+      border-color: #FF851B;
+      color: #ffffff;
+      font-weight: 500; }
+    body footer img {
+      position: relative;
+      left: 5rem; } }
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  body {
+    background: transparent url("../images/GILD-LOGO-LOOP.png");
+    background-size: 8rem; }
+    body .oranged {
+      color: #FF851B !important; }
+    body .navbar {
+      position: absolute !important;
+      z-index: 1; }
+      body .navbar .fa-desktop:hover {
+        color: #7FDBFF !important; }
+    body .jumbotron {
+      background: transparent linear-gradient(180deg, #FFFFFF 0%, #7FDBFF 100%) 0% 0% no-repeat padding-box;
+      height: 100vh;
+      padding-top: 11rem;
+      clip-path: polygon(0 0, 100% 0, 100% 66%, 0% 100%); }
+      body .jumbotron h1 {
+        text-align: left;
+        text-shadow: 0px 3px 6px #00000029;
+        color: #fff;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 900;
+        font-size: 9.5rem;
+        line-height: 0.7; }
+      body .jumbotron p {
+        text-align: left;
+        font-family: "Open Sans", sans-serif;
+        font-size: 1.4rem;
+        letter-spacing: 0;
+        color: #FFFFFF;
+        text-shadow: 0px 3px 6px #00000029; }
+    body .computer {
+      position: absolute;
+      z-index: 1;
+      top: 8rem;
+      right: 5rem; }
+    body .about-wrapper {
+      padding: 5rem;
+      height: 100%;
+      background: url("../images/typing.png") no-repeat center;
+      background-size: cover;
+      clip-path: polygon(0 46%, 100% 0, 100% 100%, 0% 100%); }
+      body .about-wrapper .container-fluid {
+        padding-top: 3rem; }
+        body .about-wrapper .container-fluid h1 {
+          margin-top: 0rem;
+          text-align: center;
+          font-family: "Open Sans", sans-serif;
+          font-weight: 800;
+          font-weight: 800;
+          font-size: 4rem;
+          letter-spacing: 0;
+          color: #7FDBFF;
+          text-shadow: 0px 3px 6px #00000029; }
+        body .about-wrapper .container-fluid p {
+          margin: 1rem;
+          text-align: center;
+          font: 1.5rem "Open Sans", sans-serif;
+          letter-spacing: 0;
+          color: #ffffff;
+          text-shadow: 0px 3px 6px #00000029; }
+    body .course-wrapper {
+      height: 100vh;
+      background-color: #FF851B;
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 66%);
+      margin-bottom: -25rem; }
+      body .course-wrapper .container h1 {
+        padding-top: 3rem;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 800;
+        font-weight: 800;
+        font-size: 4rem;
+        letter-spacing: 0;
+        color: #7FDBFF;
+        text-shadow: 0px 3px 6px #00000029; }
+      body .course-wrapper .container h2 {
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 800;
+        font-weight: 800;
+        font-size: 2rem;
+        letter-spacing: 0;
+        color: #7FDBFF;
+        text-shadow: 0px 3px 6px #00000029; }
+      body .course-wrapper .container p {
+        margin: 1rem;
+        font: 1.5rem "Open Sans", sans-serif;
+        letter-spacing: 0;
+        color: #ffffff;
+        text-shadow: 0px 3px 6px #00000029; }
+    body .accredation-wrapper {
+      background-color: #7fdbffc2;
+      height: 100%; }
+      body .accredation-wrapper .container-fluid h1 {
+        line-height: 0.9;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 800;
+        font-weight: 800;
+        font-size: 4rem;
+        letter-spacing: 0;
+        color: #FF851B;
+        text-shadow: 0px 3px 6px #00000029; }
+      body .accredation-wrapper .container-fluid .row {
+        padding-left: 11rem; }
+    body footer .container h2 {
+      font-family: "Open Sans", sans-serif;
+      font-weight: 800;
+      font-weight: 800;
+      font-size: 2rem;
+      letter-spacing: 0;
+      color: #FF851B;
+      text-shadow: 0px 3px 6px #00000029; }
+    body footer .container form label {
+      color: #ffffff; }
+    body footer .container form button {
+      background-color: #FF851B;
+      border-color: #FF851B;
+      color: #ffffff;
+      font-weight: 500; }
+    body footer img {
+      position: relative;
+      left: 5rem; } }
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  body {
+    background: transparent url("../images/GILD-LOGO-LOOP.png");
+    background-size: 8rem; }
+    body .oranged {
+      color: #FF851B !important; }
+    body .navbar {
+      position: absolute !important;
+      z-index: 1; }
+      body .navbar .fa-desktop:hover {
+        color: #7FDBFF !important; }
+    body .jumbotron {
+      background: transparent linear-gradient(180deg, #FFFFFF 0%, #7FDBFF 100%) 0% 0% no-repeat padding-box;
+      height: 100vh;
+      padding-top: 11rem;
+      clip-path: polygon(0 0, 100% 0, 100% 66%, 0% 100%); }
+      body .jumbotron h1 {
+        text-align: left;
+        text-shadow: 0px 3px 6px #00000029;
+        color: #fff;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 900;
+        font-size: 9.5rem;
+        line-height: 0.7; }
+      body .jumbotron p {
+        text-align: left;
+        font-family: "Open Sans", sans-serif;
+        font-size: 1.4rem;
+        letter-spacing: 0;
+        color: #FFFFFF;
+        text-shadow: 0px 3px 6px #00000029; }
+    body .computer {
+      position: absolute;
+      z-index: 1;
+      top: 8rem;
+      right: 5rem; }
+    body .about-wrapper {
+      padding: 5rem;
+      height: 100%;
+      background: url("../images/typing.png") no-repeat center;
+      background-size: cover;
+      clip-path: polygon(0 46%, 100% 0, 100% 100%, 0% 100%); }
+      body .about-wrapper .container-fluid {
+        padding-top: 3rem; }
+        body .about-wrapper .container-fluid h1 {
+          margin-top: 0rem;
+          text-align: center;
+          font-family: "Open Sans", sans-serif;
+          font-weight: 800;
+          font-weight: 800;
+          font-size: 4rem;
+          letter-spacing: 0;
+          color: #7FDBFF;
+          text-shadow: 0px 3px 6px #00000029; }
+        body .about-wrapper .container-fluid p {
+          margin: 1rem;
+          text-align: center;
+          font: 1.5rem "Open Sans", sans-serif;
+          letter-spacing: 0;
+          color: #ffffff;
+          text-shadow: 0px 3px 6px #00000029; }
+    body .course-wrapper {
+      height: 100vh;
+      background-color: #FF851B;
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 66%);
+      margin-bottom: -25rem; }
+      body .course-wrapper .container h1 {
+        padding-top: 3rem;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 800;
+        font-weight: 800;
+        font-size: 4rem;
+        letter-spacing: 0;
+        color: #7FDBFF;
+        text-shadow: 0px 3px 6px #00000029; }
+      body .course-wrapper .container h2 {
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 800;
+        font-weight: 800;
+        font-size: 2rem;
+        letter-spacing: 0;
+        color: #7FDBFF;
+        text-shadow: 0px 3px 6px #00000029; }
+      body .course-wrapper .container p {
+        margin: 1rem;
+        font: 1.5rem "Open Sans", sans-serif;
+        letter-spacing: 0;
+        color: #ffffff;
+        text-shadow: 0px 3px 6px #00000029; }
+    body .accredation-wrapper {
+      background-color: #7fdbffc2;
+      height: 100%; }
+      body .accredation-wrapper .container-fluid h1 {
+        line-height: 0.9;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 800;
+        font-weight: 800;
+        font-size: 4rem;
+        letter-spacing: 0;
+        color: #FF851B;
+        text-shadow: 0px 3px 6px #00000029; }
+      body .accredation-wrapper .container-fluid .row {
+        padding-left: 11rem; }
+    body footer .container h2 {
+      font-family: "Open Sans", sans-serif;
+      font-weight: 800;
+      font-weight: 800;
+      font-size: 2rem;
+      letter-spacing: 0;
+      color: #FF851B;
+      text-shadow: 0px 3px 6px #00000029; }
+    body footer .container form label {
+      color: #ffffff; }
+    body footer .container form button {
+      background-color: #FF851B;
+      border-color: #FF851B;
+      color: #ffffff;
+      font-weight: 500; }
+    body footer img {
+      position: relative;
+      left: 5rem; } }
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  body {
+    background: transparent url("../images/GILD-LOGO-LOOP.png");
+    background-size: 8rem; }
+    body .oranged {
+      color: #FF851B !important; }
+    body .navbar {
+      position: absolute !important;
+      z-index: 1; }
+      body .navbar .fa-desktop:hover {
+        color: #7FDBFF !important; }
+    body .jumbotron {
+      background: transparent linear-gradient(180deg, #FFFFFF 0%, #7FDBFF 100%) 0% 0% no-repeat padding-box;
+      height: 100vh;
+      padding-top: 11rem;
+      clip-path: polygon(0 0, 100% 0, 100% 66%, 0% 100%); }
+      body .jumbotron h1 {
+        text-align: left;
+        text-shadow: 0px 3px 6px #00000029;
+        color: #fff;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 900;
+        font-size: 9.5rem;
+        line-height: 0.7; }
+      body .jumbotron p {
+        text-align: left;
+        font-family: "Open Sans", sans-serif;
+        font-size: 1.4rem;
+        letter-spacing: 0;
+        color: #FFFFFF;
+        text-shadow: 0px 3px 6px #00000029; }
+    body .computer {
+      position: absolute;
+      z-index: 1;
+      top: 8rem;
+      right: 5rem; }
+    body .about-wrapper {
+      padding: 5rem;
+      height: 100%;
+      background: url("../images/typing.png") no-repeat center;
+      background-size: cover;
+      clip-path: polygon(0 46%, 100% 0, 100% 100%, 0% 100%); }
+      body .about-wrapper .container-fluid {
+        padding-top: 3rem; }
+        body .about-wrapper .container-fluid h1 {
+          margin-top: 0rem;
+          text-align: center;
+          font-family: "Open Sans", sans-serif;
+          font-weight: 800;
+          font-weight: 800;
+          font-size: 4rem;
+          letter-spacing: 0;
+          color: #7FDBFF;
+          text-shadow: 0px 3px 6px #00000029; }
+        body .about-wrapper .container-fluid p {
+          margin: 1rem;
+          text-align: center;
+          font: 1.5rem "Open Sans", sans-serif;
+          letter-spacing: 0;
+          color: #ffffff;
+          text-shadow: 0px 3px 6px #00000029; }
+    body .course-wrapper {
+      height: 100vh;
+      background-color: #FF851B;
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 66%);
+      margin-bottom: -25rem; }
+      body .course-wrapper .container h1 {
+        padding-top: 3rem;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 800;
+        font-weight: 800;
+        font-size: 4rem;
+        letter-spacing: 0;
+        color: #7FDBFF;
+        text-shadow: 0px 3px 6px #00000029; }
+      body .course-wrapper .container h2 {
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 800;
+        font-weight: 800;
+        font-size: 2rem;
+        letter-spacing: 0;
+        color: #7FDBFF;
+        text-shadow: 0px 3px 6px #00000029; }
+      body .course-wrapper .container p {
+        margin: 1rem;
+        font: 1.5rem "Open Sans", sans-serif;
+        letter-spacing: 0;
+        color: #ffffff;
+        text-shadow: 0px 3px 6px #00000029; }
+    body .accredation-wrapper {
+      background-color: #7fdbffc2;
+      height: 100%; }
+      body .accredation-wrapper .container-fluid h1 {
+        line-height: 0.9;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 800;
+        font-weight: 800;
+        font-size: 4rem;
+        letter-spacing: 0;
+        color: #FF851B;
+        text-shadow: 0px 3px 6px #00000029; }
+      body .accredation-wrapper .container-fluid .row {
+        padding-left: 11rem; }
+    body footer .container h2 {
+      font-family: "Open Sans", sans-serif;
+      font-weight: 800;
+      font-weight: 800;
+      font-size: 2rem;
+      letter-spacing: 0;
+      color: #FF851B;
+      text-shadow: 0px 3px 6px #00000029; }
+    body footer .container form label {
+      color: #ffffff; }
+    body footer .container form button {
+      background-color: #FF851B;
+      border-color: #FF851B;
+      color: #ffffff;
+      font-weight: 500; }
+    body footer img {
+      position: relative;
+      left: 5rem; } }
+/* iPad 3 (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (min-resolution: 192dpi) {
+  body {
+    background: transparent url("../images/GILD-LOGO-LOOP.png");
+    background-size: 8rem; }
+    body .oranged {
+      color: #FF851B !important; }
+    body .navbar {
+      position: absolute !important;
+      z-index: 1; }
+      body .navbar .fa-desktop:hover {
+        color: #7FDBFF !important; }
+    body .jumbotron {
+      background: transparent linear-gradient(180deg, #FFFFFF 0%, #7FDBFF 100%) 0% 0% no-repeat padding-box;
+      height: 100vh;
+      padding-top: 11rem;
+      clip-path: polygon(0 0, 100% 0, 100% 66%, 0% 100%); }
+      body .jumbotron h1 {
+        text-align: left;
+        text-shadow: 0px 3px 6px #00000029;
+        color: #fff;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 900;
+        font-size: 9.5rem;
+        line-height: 0.7; }
+      body .jumbotron p {
+        text-align: left;
+        font-family: "Open Sans", sans-serif;
+        font-size: 1.4rem;
+        letter-spacing: 0;
+        color: #FFFFFF;
+        text-shadow: 0px 3px 6px #00000029; }
+    body .computer {
+      position: absolute;
+      z-index: 1;
+      top: 8rem;
+      right: 5rem; }
+    body .about-wrapper {
+      padding: 5rem;
+      height: 100%;
+      background: url("../images/typing.png") no-repeat center;
+      background-size: cover;
+      clip-path: polygon(0 46%, 100% 0, 100% 100%, 0% 100%); }
+      body .about-wrapper .container-fluid {
+        padding-top: 3rem; }
+        body .about-wrapper .container-fluid h1 {
+          margin-top: 0rem;
+          text-align: center;
+          font-family: "Open Sans", sans-serif;
+          font-weight: 800;
+          font-weight: 800;
+          font-size: 4rem;
+          letter-spacing: 0;
+          color: #7FDBFF;
+          text-shadow: 0px 3px 6px #00000029; }
+        body .about-wrapper .container-fluid p {
+          margin: 1rem;
+          text-align: center;
+          font: 1.5rem "Open Sans", sans-serif;
+          letter-spacing: 0;
+          color: #ffffff;
+          text-shadow: 0px 3px 6px #00000029; }
+    body .course-wrapper {
+      height: 100vh;
+      background-color: #FF851B;
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 66%);
+      margin-bottom: -25rem; }
+      body .course-wrapper .container h1 {
+        padding-top: 3rem;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 800;
+        font-weight: 800;
+        font-size: 4rem;
+        letter-spacing: 0;
+        color: #7FDBFF;
+        text-shadow: 0px 3px 6px #00000029; }
+      body .course-wrapper .container h2 {
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 800;
+        font-weight: 800;
+        font-size: 2rem;
+        letter-spacing: 0;
+        color: #7FDBFF;
+        text-shadow: 0px 3px 6px #00000029; }
+      body .course-wrapper .container p {
+        margin: 1rem;
+        font: 1.5rem "Open Sans", sans-serif;
+        letter-spacing: 0;
+        color: #ffffff;
+        text-shadow: 0px 3px 6px #00000029; }
+    body .accredation-wrapper {
+      background-color: #7fdbffc2;
+      height: 100%; }
+      body .accredation-wrapper .container-fluid h1 {
+        line-height: 0.9;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 800;
+        font-weight: 800;
+        font-size: 4rem;
+        letter-spacing: 0;
+        color: #FF851B;
+        text-shadow: 0px 3px 6px #00000029; }
+      body .accredation-wrapper .container-fluid .row {
+        padding-left: 11rem; }
+    body footer .container h2 {
+      font-family: "Open Sans", sans-serif;
+      font-weight: 800;
+      font-weight: 800;
+      font-size: 2rem;
+      letter-spacing: 0;
+      color: #FF851B;
+      text-shadow: 0px 3px 6px #00000029; }
+    body footer .container form label {
+      color: #ffffff; }
+    body footer .container form button {
+      background-color: #FF851B;
+      border-color: #FF851B;
+      color: #ffffff;
+      font-weight: 500; }
+    body footer img {
+      position: relative;
+      left: 5rem; } }
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+  body {
+    background: transparent url("../images/GILD-LOGO-LOOP.png");
+    background-size: 8rem; }
+    body .oranged {
+      color: #FF851B !important; }
+    body .navbar {
+      position: absolute !important;
+      z-index: 1; }
+      body .navbar .fa-desktop:hover {
+        color: #7FDBFF !important; }
+    body .jumbotron {
+      background: transparent linear-gradient(180deg, #FFFFFF 0%, #7FDBFF 100%) 0% 0% no-repeat padding-box;
+      height: 100vh;
+      padding-top: 5rem;
+      clip-path: polygon(0 0, 100% 0, 100% 66%, 0% 100%); }
+      body .jumbotron h1 {
+        text-align: left;
+        text-shadow: 0px 3px 6px #00000029;
+        color: #fff;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 900;
+        font-size: 8.5rem;
+        line-height: 0.7; }
+      body .jumbotron p {
+        text-align: left;
+        font-family: "Open Sans", sans-serif;
+        font-size: 1.4rem;
+        letter-spacing: 0;
+        color: #FFFFFF;
+        text-shadow: 0px 3px 6px #00000029; }
+    body .computer {
+      position: absolute;
+      z-index: 1;
+      top: 1rem;
+      right: 5rem; }
+    body .about-wrapper {
+      padding: 5rem;
+      height: 100%;
+      background: url("../images/typing.png") no-repeat center;
+      background-size: cover;
+      clip-path: polygon(0 46%, 100% 0, 100% 100%, 0% 100%); }
+      body .about-wrapper .container-fluid {
+        padding-top: 3rem; }
+        body .about-wrapper .container-fluid h1 {
+          margin-top: 0rem;
+          text-align: center;
+          font-family: "Open Sans", sans-serif;
+          font-weight: 800;
+          font-weight: 800;
+          font-size: 4rem;
+          letter-spacing: 0;
+          color: #7FDBFF;
+          text-shadow: 0px 3px 6px #00000029; }
+        body .about-wrapper .container-fluid p {
+          margin: 1rem;
+          text-align: center;
+          font: 1.5rem "Open Sans", sans-serif;
+          letter-spacing: 0;
+          color: #ffffff;
+          text-shadow: 0px 3px 6px #00000029; }
+    body .course-wrapper {
+      height: 100vh;
+      background-color: #FF851B;
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 66%);
+      margin-bottom: -25rem; }
+      body .course-wrapper .container h1 {
+        padding-top: 3rem;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 800;
+        font-weight: 800;
+        font-size: 4rem;
+        letter-spacing: 0;
+        color: #7FDBFF;
+        text-shadow: 0px 3px 6px #00000029; }
+      body .course-wrapper .container h2 {
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 800;
+        font-weight: 800;
+        font-size: 2rem;
+        letter-spacing: 0;
+        color: #7FDBFF;
+        text-shadow: 0px 3px 6px #00000029; }
+      body .course-wrapper .container p {
+        margin: 1rem;
+        font: 1.5rem "Open Sans", sans-serif;
+        letter-spacing: 0;
+        color: #ffffff;
+        text-shadow: 0px 3px 6px #00000029; }
+    body .accredation-wrapper {
+      background-color: #7fdbffc2;
+      height: 60vh;
+      margin-top: 10rem; }
+      body .accredation-wrapper .container-fluid h1 {
+        line-height: 0.9;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 800;
+        font-weight: 800;
+        font-size: 4rem;
+        letter-spacing: 0;
+        color: #FF851B;
+        text-shadow: 0px 3px 6px #00000029; }
+      body .accredation-wrapper .container-fluid .row .img1 {
+        position: relative;
+        top: 5rem; }
+      body .accredation-wrapper .container-fluid .row .img2 {
+        position: relative;
+        top: 5rem;
+        width: 350px; }
+    body footer .container h2 {
+      font-family: "Open Sans", sans-serif;
+      font-weight: 800;
+      font-weight: 800;
+      font-size: 2rem;
+      letter-spacing: 0;
+      color: #FF851B;
+      text-shadow: 0px 3px 6px #00000029; }
+    body footer .container form label {
+      color: #ffffff; }
+    body footer .container form button {
+      background-color: #FF851B;
+      border-color: #FF851B;
+      color: #ffffff;
+      font-weight: 500; }
+    body footer img {
+      position: relative;
+      left: 5rem; } }
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+  body {
+    background: transparent url("../images/GILD-LOGO-LOOP.png");
+    background-size: 8rem; }
+    body .oranged {
+      color: #FF851B !important; }
+    body .navbar {
+      position: absolute !important;
+      z-index: 1; }
+      body .navbar .fa-desktop:hover {
+        color: #7FDBFF !important; }
+    body .jumbotron {
+      background: transparent linear-gradient(180deg, #FFFFFF 0%, #7FDBFF 100%) 0% 0% no-repeat padding-box;
+      height: 100vh;
+      padding-top: 9rem;
+      clip-path: polygon(0 0, 100% 0, 100% 66%, 0% 100%); }
+      body .jumbotron h1 {
+        text-align: left;
+        text-shadow: 0px 3px 6px #00000029;
+        color: #fff;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 900;
+        font-size: 13.5rem;
+        line-height: 0.7; }
+      body .jumbotron p {
+        text-align: left;
+        font-family: "Open Sans", sans-serif;
+        font-size: 2.4rem;
+        letter-spacing: 0;
+        color: #FFFFFF;
+        text-shadow: 0px 3px 6px #00000029; }
+    body .computer {
+      position: absolute;
+      z-index: 1;
+      top: 3rem;
+      right: 5rem;
+      width: 900px; }
+    body .about-wrapper {
+      padding: 5rem;
+      height: 100%;
+      background: url("../images/typing.png") no-repeat center;
+      background-size: cover;
+      clip-path: polygon(0 46%, 100% 0, 100% 100%, 0% 100%); }
+      body .about-wrapper .container-fluid {
+        padding-top: 3rem; }
+        body .about-wrapper .container-fluid h1 {
+          margin-top: 0rem;
+          text-align: center;
+          font-family: "Open Sans", sans-serif;
+          font-weight: 800;
+          font-weight: 800;
+          font-size: 4rem;
+          letter-spacing: 0;
+          color: #7FDBFF;
+          text-shadow: 0px 3px 6px #00000029; }
+        body .about-wrapper .container-fluid p {
+          margin: 1rem;
+          text-align: center;
+          font: 1.5rem "Open Sans", sans-serif;
+          letter-spacing: 0;
+          color: #ffffff;
+          text-shadow: 0px 3px 6px #00000029; }
+    body .course-wrapper {
+      height: 100vh;
+      background-color: #FF851B;
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 66%);
+      margin-bottom: -25rem; }
+      body .course-wrapper .container h1 {
+        padding-top: 3rem;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 800;
+        font-weight: 800;
+        font-size: 4rem;
+        letter-spacing: 0;
+        color: #7FDBFF;
+        text-shadow: 0px 3px 6px #00000029; }
+      body .course-wrapper .container h2 {
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 800;
+        font-weight: 800;
+        font-size: 2rem;
+        letter-spacing: 0;
+        color: #7FDBFF;
+        text-shadow: 0px 3px 6px #00000029; }
+      body .course-wrapper .container p {
+        margin: 1rem;
+        font: 1.5rem "Open Sans", sans-serif;
+        letter-spacing: 0;
+        color: #ffffff;
+        text-shadow: 0px 3px 6px #00000029; }
+    body .accredation-wrapper {
+      background-color: #7fdbffc2;
+      height: 100%; }
+      body .accredation-wrapper .container-fluid h1 {
+        line-height: 0.9;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 800;
+        font-weight: 800;
+        font-size: 4rem;
+        letter-spacing: 0;
+        color: #FF851B;
+        text-shadow: 0px 3px 6px #00000029; }
+      body .accredation-wrapper .container-fluid .row {
+        padding-left: 11rem; }
+    body footer .container h2 {
+      font-family: "Open Sans", sans-serif;
+      font-weight: 800;
+      font-weight: 800;
+      font-size: 2rem;
+      letter-spacing: 0;
+      color: #FF851B;
+      text-shadow: 0px 3px 6px #00000029; }
+    body footer .container form label {
+      color: #ffffff; }
+    body footer .container form button {
+      background-color: #FF851B;
+      border-color: #FF851B;
+      color: #ffffff;
+      font-weight: 500; }
+    body footer img {
+      position: relative;
+      left: 5rem; } }
+/* Retina displays ----------- */

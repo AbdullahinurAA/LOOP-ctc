@@ -17,10 +17,8 @@ $orange: #FF851B;
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
 body {
-	background-color: #000;
-////	background-position: left center;
-////    background-repeat: repeat-x;
-//	  background-position: space 0 0;
+
+    background: #000 url(../images/GILD-LOGO-LOOP.png);
 	background-size: 8rem;
 				.oranged {
 					color: $orange !important;
@@ -1088,7 +1086,7 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px) 
 and (min-resolution: 192dpi) { 
    body {
-	background: transparent url("../images/GILD-LOGO-LOOP.png");
+	background: #000 url("../images/GILD-LOGO-LOOP.png");
 ////	background-position: left center;
 ////    background-repeat: repeat-x;
 //	  background-position: space 0 0;
@@ -1264,7 +1262,7 @@ and (min-resolution: 192dpi) {
 @media only screen 
 and (min-width : 1224px) {
 	body {
-	background: transparent url("../images/GILD-LOGO-LOOP.png");
+	background: #ddd url("../images/GILD-LOGO-LOOP.png") space top left;
 	background-size: 8rem;
 				.oranged {
 					color: $orange !important;
@@ -1447,7 +1445,7 @@ and (min-width : 1224px) {
 @media only screen 
 and (min-width : 1824px) {
 	body {
-	background: transparent url("../images/GILD-LOGO-LOOP.png");
+	background: #000 url("../images/GILD-LOGO-LOOP.png");
 	background-size: 8rem;
 				.oranged {
 					color: $orange !important;

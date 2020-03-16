@@ -17,10 +17,7 @@ $orange: #FF851B;
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
 body {
-	background: transparent url("../images/GILD-LOGO-LOOP.png");
-////	background-position: left center;
-////    background-repeat: repeat-x;
-//	  background-position: space 0 0;
+//	background:url(https://www.transparenttextures.com/patterns/arches.png) repeat #cfcfe6;
 	background-size: 8rem;
 				.oranged {
 					color: $orange !important;

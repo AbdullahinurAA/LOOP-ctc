@@ -3,6 +3,7 @@
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   body {
+    background: #000 url(../images/GILD-LOGO-LOOP.png);
     background-color: #aaa;
     background-size: 8rem; }
     body .oranged {
@@ -13,6 +14,7 @@
       body .navbar .fa-desktop:hover {
         color: #7FDBFF !important; }
     body .jumbotron {
+      background: transparent linear-gradient(180deg, #FFFFFF 0%, #7FDBFF 100%) 0% 0% no-repeat padding-box;
       height: 100vh;
       padding-top: 11rem;
       clip-path: polygon(0 0, 100% 0, 100% 66%, 0% 100%); }

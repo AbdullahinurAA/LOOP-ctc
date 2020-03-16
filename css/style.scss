@@ -18,6 +18,7 @@ and (min-device-width : 320px)
 and (max-device-width : 480px) {
 body {
 //	background:url(https://www.transparenttextures.com/patterns/arches.png) repeat #cfcfe6;
+	background-color: #aaa;
 	background-size: 8rem;
 				.oranged {
 					color: $orange !important;
@@ -32,7 +33,7 @@ body {
 		}
 	
 	.jumbotron {
-		background: transparent linear-gradient(180deg, #FFFFFF 0%, #7FDBFF 100%) 0% 0% no-repeat padding-box;
+//		background: transparent linear-gradient(180deg, #FFFFFF 0%, #7FDBFF 100%) 0% 0% no-repeat padding-box;
 		height: 100vh;
 		padding-top: 11rem;
 		clip-path: polygon(0 0, 100% 0, 100% 66%, 0% 100%);
